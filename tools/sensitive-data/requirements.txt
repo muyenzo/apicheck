@@ -2,3 +2,4 @@ sanic
 pyyaml
 requests
 python-pipes
+websockets>=9.1 # not directly required, pinned by Snyk to avoid a vulnerability
