@@ -1,4 +1,4 @@
-FROM node:14.0.0-alpine3.11
+FROM node:fermium-alpine3.11
 
 RUN apk update && \
     apk upgrade && \
