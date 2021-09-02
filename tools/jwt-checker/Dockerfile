@@ -9,7 +9,7 @@ WORKDIR /jwtvalidator
 RUN go test ./... && \
     go build -o jwt-checker
 
-FROM alpine:3.11.6
+FROM alpine:3.13
 
 WORKDIR /root/
 
