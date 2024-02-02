@@ -1,4 +1,4 @@
-FROM python:3.7-slim as BASE
+FROM python:3.13.0a3-slim as BASE
 
 RUN apt-get update \
     && pip install -U pip \
